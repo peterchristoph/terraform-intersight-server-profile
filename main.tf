@@ -28,5 +28,5 @@ module "server_profile" {
   server_list = "nclb-demo-ucsx01-1-4"
   server_profile_action = "Deploy"
   target_platform = "${var.server_profile_target_platform}"
-  vnic_name = "${var.server_profile_vnic_name}"
+  vnic_name = "eth2"
 }
